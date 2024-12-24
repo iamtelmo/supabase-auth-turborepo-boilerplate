@@ -1,0 +1,23 @@
+{
+  "name": "supabase-turborepo-boilerplate",
+  "private": true,
+  "author": "Telmo Beroiz <iamtelmo@proton.me>",
+  "packageManager": "yarn@1.22.22",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

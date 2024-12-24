@@ -1,0 +1,38 @@
+{
+  "name": "@repo/supabase",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "peerDependencies": {
+    "next": "15.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.1",
+    "@supabase/supabase-js": "^2.46.1",
+    "supabase": "^1.219.2"
+  },
+  "exports": {
+    "./client": {
+      "types": "./dist/client/client.d.ts",
+      "default": "./dist/client/client.js"
+    },
+    "./middleware": {
+      "types": "./dist/client/middleware.d.ts",
+      "default": "./dist/client/middleware.js"
+    },
+    "./server": {
+      "types": "./dist/client/server.d.ts",
+      "default": "./dist/client/server.js"
+    },
+    "./types": {
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/types/index.js"
+    }
+  }
+}
