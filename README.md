@@ -5,9 +5,6 @@
 
   <h3 align="center">Supabase Auth + Turbo + Shadcn</h3>
 
-  <p align="center">
-    <a href="https://supabase-auth-turborepo-boilerplate-dashboard.vercel.app/">View Demo</a>
- </p>
 </div>
 
 <br>
